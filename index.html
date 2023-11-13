@@ -36,11 +36,11 @@
         <img src="./img/mario.png" alt="Mario e Luigi" class="imagem-mario-luigi">
     </div>
 
-    <form class="fale-conosco">
+    <form class="fale-conosco" action="https://formsubmit.co/matheus.magalhaespf@outlook.com" method="POST">
         <h2>Fale com o desenvolvedor</h2>
-        <input type="text" placeholder="Seu nome">
-        <input type="tel" placeholder="Seu telefone">
-        <textarea placeholder="Digite sua mensagem aqui"></textarea>
+        <input type="text" placeholder="Seu nome" name="nome">
+        <input type="tel" placeholder="Seu telefone" name="telefone">
+        <textarea placeholder="Digite sua mensagem aqui" name="info"></textarea>
         <button onclick="sumirForm()">Enviar</button>
     </form>
 
